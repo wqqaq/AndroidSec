@@ -1,4 +1,4 @@
-//frida -U com.fhvideo.phone  -l D:\pudong-apptest\r0ysue-androidsec\fridaPrint-all-in-one.js
+//frida -U com.xx.xx  -l fridaPrint-all-in-one.js
 function main() {
     Java.perform(function (){
         console.log("=============");
