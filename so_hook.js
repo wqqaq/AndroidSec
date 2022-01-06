@@ -1,4 +1,4 @@
-//frida -U  com.gdufs.xman -l hook.js
+//frida -U --pause-on -f com.gdufs.xman -l hook.js
 function hook_java() {
     Java.perform(function () {
         var MyApp = Java.use("com.gdufs.xman.MyApp");
